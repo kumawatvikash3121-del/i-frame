@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Scenery</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .content {
+            position: absolute;
+            top: 40%;
+            left: 0;
+            width: 100%;
+
+            text-align: center;
+            padding: 8px;
+
+            background-color: rgba(255, 255, 255, 0.35);
+        }
+
+        .content h1 {
+            font-size: 70px;
+            font-family: Georgia, "Times New Roman", serif;
+            color: black;
+        }
+
+        .content p {
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Georgia, "Times New Roman", serif;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Background Image -->
+        <img src="2.png" alt="Beautiful Scenery">
+
+        <!-- Text -->
+        <div class="content">
+            <h1>Scenery</h1>
+            <p>This is the a very beautiful view</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

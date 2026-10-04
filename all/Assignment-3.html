@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .con{
+            height: 610px;
+            background-color:#576c8b;
+            
+        }
+        .header{
+            height: 20%;
+            background-color: #E1DFFE;
+            background-color:#576c8b;
+        }
+        .center{
+            height: 60%;
+            display: flex;
+            border: 1px solid white;
+            
+        }
+        .left{
+            height: 100%;
+            width: 20%;
+            background-color: #FEEAAE;
+            border: 1px solid white;
+
+        }
+        .right{
+            height: 100%;
+            width: 80%;
+             background-color: rgb(255, 255, 255);
+        }
+        .top{
+            height: 50%;
+            background-color:#BDE0FE;
+            border: 1px solid white;
+
+        }
+        .bottom{
+            height: 50%;
+            background-color: rgb(148, 52, 7);
+            display: flex;
+        }
+        .b1{
+            height: 100%;
+            width: 50%;
+            background: #C4EED7;
+            border: 1px solid white;
+
+        }
+        .b2{
+            height: 100%;
+             width: 50%;
+            background: #FBCBCF;
+            border: 1px solid white;
+
+        }
+        *{
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Flex Box </h1>
+    <div class="con">
+        <div class="header"></div>
+        <div class="center">
+            <div class="left"></div>
+            <div class="right">
+                <div class="top"></div>
+                <div class="bottom">
+                    <div class="b1"></div>
+                    <div class="b2"></div>
+                </div>
+            </div>    
+        </div>
+        <div class="footer"></div>
+    </div>
+    
+</body>
+</html>

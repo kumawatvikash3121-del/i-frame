@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            background: linear-gradient(90deg,skyblue,purple);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        form{
+            height: 80%;
+            width: 30%;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .email,.password,.login{
+            height: 20%;
+            /* border: 1px solid black; */
+            width: 80%;
+            margin: 3%;
+            margin:auto;
+        }
+        input{
+            height: 50%;
+            width: 100%;
+            margin-top: 5%;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1{
+            height: 10%;
+            /* line-height: 150%; */
+            margin-top: 5%;
+        }
+        p{
+            margin-top: 3%;
+        }
+        #button{
+            background: linear-gradient(90deg,skyblue,purple);
+            border: none;
+            border-radius: 10px;
+            color: white;
+        }
+        .password>p{
+            color: gray;
+            font-style: italic;
+        }
+        .login>p{
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1 align="center">LOGIN FORM</h1>
+        <div class="email">
+            <label for="">Email or Phone</label> 
+            <input type="text" placeholder="xyz@gamil.com">
+        </div>
+        <div class="password">
+            <label for="">Password</label>
+            <input type="password" placeholder="xyz2003">
+            <p>Forgot Password ?</p>
+        </div>
+        <div class="login">
+            <input type="button" value="LOGIN" id="button"> 
+            <p align="center">Not a Member? <a href="SignUp.html">Sign Up</a> </p>
+        </div>
+    </form>
+</body>
+</html>
